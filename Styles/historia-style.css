@@ -1,0 +1,200 @@
+body {
+    background-color: #181D31;
+    margin: 0%;
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+#titulo_principal {
+    background-image: url(../imagenes/codigo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 85px;
+}
+
+h1 {
+    display: block;
+    color: #EEEEEE;
+    font-size: 60px;
+    font-weight: 700px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    text-align: center;
+    text-shadow: gray 2px 2px ,black 6px 6px;
+}
+
+#menu {
+    background-color: #181D31;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu_botones {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: 25px 25px;
+}
+
+.boton_menu {
+    color: #181D31;
+    background-color: #E6DDC4;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: #E6DDC4;
+    box-shadow: #678983 2px 2px;
+    font-weight: 100;
+    margin: 0px 10px;
+}
+
+.boton_menu:hover {
+    cursor: pointer;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px 50px;
+    gap: 25px;
+}
+
+.subtitulo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    color: #678983;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: rgb(0, 0, 0) 2px 2px 0px;
+}
+
+.subtitulo_alt {
+    white-space: nowrap;
+}
+
+#primeros_leng {
+    width: 20%;
+}
+
+#primeros_leng_texto {
+    width: 75%;
+}
+
+.texto_info {
+    display: flex;
+    color: beige;
+    margin: 25px 50px 25px 0px;
+    width: 45%;
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+video {
+    width: 70vw;
+}
+
+#contenedor_video {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#herramientas_reproductor {
+    background-color: rgb(44, 44, 44);
+    border: black solid 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#botones_reproductor {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 14%;
+}
+
+#duracion {
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+}
+
+#duracion_video {
+    margin-right: 15px;
+}
+
+.reproductor_boton {
+    margin-top: 5px;
+    background-color: #E6DDC4;
+    box-shadow: #678983 2px 2px;
+    border-radius: 10px;
+    width: 40%;
+    height: 80%;
+}
+
+.reproductor_boton:hover {
+    cursor: pointer;
+}
+
+#contenedor_inf {
+    background-color: #678983;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 40px 40px;
+}
+
+#logo {
+    width: 110px;
+    height: 80px;
+}
+
+#logo_y_texto {
+    display: flex;
+    justify-content: space-between;
+    color: #181D31;
+    height: 60px;
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#titulo_programacion {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+    width: 120px;
+    height: 50px;
+}
