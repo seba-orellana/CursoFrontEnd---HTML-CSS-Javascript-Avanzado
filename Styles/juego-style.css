@@ -94,3 +94,28 @@ h1 {
     margin: 100px 10px;
     width: 15%;
 }
+
+.logo_fondo {
+    animation: animacion_logo 750ms;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    visibility: hidden;
+}
+
+.logo_relleno {
+    animation: animacion_logo 750ms;
+    animation-fill-mode: forwards;
+    animation-delay: 1750ms;
+    visibility: hidden;
+}
+
+@keyframes animacion_logo {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}

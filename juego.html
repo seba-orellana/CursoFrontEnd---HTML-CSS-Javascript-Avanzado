@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto - Final</title>
     <link rel="stylesheet" href="./Styles/juego-style.css">
+    <link rel="icon" href="./imagenes/logo.png">
 </head>
 <body>
     <header>
         <div id="menu">
-            <a href="./index.html"><h3>LOGO</h3></a>
+            <a href="./index.html">
+                <svg id="logo" width="200px" height="80px">
+                    <rect class="logo_fondo" x="40" y="5" width="60px" height="35px" fill="#F0E9D2" rx="4"></rect>
+                    <rect class="logo_relleno" x="45" y="10" width="50px" height="25px" fill="#495579" rx="4"></rect>
+                    <polygon class="logo_fondo" points="50 45, 90 45, 110 60, 25 60" fill="#F0E9D2"></polygon>
+                    <polygon class="logo_relleno" points="53 48, 87 48, 98 56, 40 56" fill="#495579"></polygon>
+                </svg>
+            </a>
             <div id="menu_botones">
                 <a href="./historia.html"><button class="boton_menu">HISTORIA</button></a>
                 <a href="./juego.html"><button class="boton_menu">JUGUEMOS</button></a>

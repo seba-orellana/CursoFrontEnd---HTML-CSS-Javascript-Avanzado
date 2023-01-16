@@ -64,6 +64,32 @@ h1 {
     cursor: pointer;
 }
 
+
+.logo_fondo {
+    animation: animacion_logo 750ms;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    visibility: hidden;
+}
+
+.logo_relleno {
+    animation: animacion_logo 750ms;
+    animation-fill-mode: forwards;
+    animation-delay: 1750ms;
+    visibility: hidden;
+}
+
+@keyframes animacion_logo {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
 #contenedor {
     display: flex;
     flex-direction: column;
@@ -133,6 +159,7 @@ video {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    height: 50px;
 }
 
 #botones_reproductor {
@@ -146,7 +173,7 @@ video {
     color: #EEEEEE;
     display: flex;
     justify-content: space-between;
-    width: 13%;
+    width: 15%;
 }
 
 #duracion_video {

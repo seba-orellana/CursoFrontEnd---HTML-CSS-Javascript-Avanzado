@@ -18,5 +18,8 @@ function intTommss(tiempo) {
     return ([mm,ss])
 }
 
-let duracionVideo = document.getElementById("duracion_video")
-duracionVideo.textContent = (intTommss(video.duration)).join(":")
+let duracionVideo = document.getElementById("duracion_video");
+
+video.onloadedmetadata = function(){
+        duracionVideo.textContent = (intTommss(video.duration)).join(":");
+};
