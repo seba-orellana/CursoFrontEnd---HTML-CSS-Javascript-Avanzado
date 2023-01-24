@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto - Final</title>
     <link rel="stylesheet" href="./Styles/index-style.css">
+    <link rel="stylesheet" href="./Styles/general.css">
     <link rel="icon" href="./imagenes/logo.png">
 </head>
 <body>
     <header>
-        <div id="menu">
+        <div id="menu" class="menu_principal">
             <a href="./index.html">
                 <svg id="logo" width="200px" height="80px">
-                    <rect class="logo_fondo" x="40" y="5" width="60px" height="35px" fill="#F0E9D2" rx="4"></rect>
-                    <rect class="logo_relleno" x="45" y="10" width="50px" height="25px" fill="#495579" rx="4"></rect>
-                    <polygon class="logo_fondo" points="50 45, 90 45, 110 60, 25 60" fill="#F0E9D2"></polygon>
-                    <polygon class="logo_relleno" points="53 48, 87 48, 98 56, 40 56" fill="#495579"></polygon>
+                    <rect class="logo_fondo logo_animado" x="40" y="5" width="60px" height="35px" fill="#F0E9D2" rx="4"></rect>
+                    <rect class="logo_relleno logo_animado" x="45" y="10" width="50px" height="25px" fill="#495579" rx="4"></rect>
+                    <polygon class="logo_fondo logo_animado" points="50 45, 90 45, 110 60, 25 60" fill="#F0E9D2"></polygon>
+                    <polygon class="logo_relleno logo_animado" points="53 48, 87 48, 98 56, 40 56" fill="#495579"></polygon>
                 </svg>
             </a>
-            <div id="menu_botones">
-                <a href="./historia.html"><button class="boton_menu">HISTORIA</button></a>
-                <a href="./juego.html"><button class="boton_menu">JUGUEMOS</button></a>
+            <div id="menu_botones" class="menu_principal">
+                <a href="./historia.html" class="boton_menu boton_pulsable">HISTORIA</a>
+                <a href="./juego.html" class="boton_menu boton_pulsable">JUGUEMOS</a>
             </div>
         </div>
     </header>
@@ -31,23 +32,25 @@
             <h1>PROGRAMACION E HISTORIA</h1>
         </div>
 
-        <h2 id="titulo_contenido">CONTENIDO</h2>
+        <h2 id="subtitulo">CONTENIDO</h2>
 
         <div id="contenedor">
                 <div class="box" id="ir_historia">
                     <img class="img-box" src="./imagenes/img1.jpg" alt="imagen para ir a la historia">
-                    <a href="./historia.html"><button class="boton_box">Ir a Historia</button></a>
+                    <p class="texto_box">Conozcamos Un poco sobre la historia de la programacion</p>
+                    <a href="./historia.html" class="boton_pulsable">Ir a Historia</a>
                 </div>
 
                 <div class="box" id="ir_juego">
                     <img class="img-box" src="./imagenes/img2.jpg" alt="imagen para ir al juego">
-                    <a href="./juego.html"><button class="boton_box">Ir a juego</button></a>
+                    <p class="texto_box">Juguemos un poco sobre la computacion</p>
+                    <a href="./juego.html" class="boton_pulsable">Ir a juego</a>
                 </div>
         </div>
 
     <footer>
-        <div id="contenedor_inf">
-            <div id="logo_y_texto">
+        <div id="contenedor_inf" class="menu_principal">
+            <div id="logo_inferior_y_texto" class="menu_principal">
                 <img id="logo" src="./imagenes/logo.png" alt="imagen logo HTML">
                 <h3 id="titulo_programacion">PROGRAMACION <br> E <br> HISTORIA</h3>
             </div>
