@@ -10,7 +10,12 @@
 
 *Agregada la pagina del juego del rompecabezas  
 
+24/1/23
+
+*Agregada la hoja "general.css" que contiene las propiedades que son comunes a las hojas de CSS de cada pagina  
+*Agregado el texto que aparece dentro de los boxs de juego y menu en la pagina "index.html"
+
 FALTA POR HACER:  
   
-#Animar los botones del video para que se vea un efecto de pulsado  
+#Animar los botones del video y menu superior para que se vea un efecto de pulsado  
 #Corregir algunas medidas y dimensiones en general
