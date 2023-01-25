@@ -15,7 +15,11 @@
 *Agregada la hoja "general.css" que contiene las propiedades que son comunes a las hojas de CSS de cada pagina  
 *Agregado el texto que aparece dentro de los boxs de juego y menu en la pagina "index.html"
 
+25/1/23
+
+*Agregado el efecto de pulsado a los botones (y al boton "Reiniciar" en la pagina del juego, pese a que la pagina original no lo tiene)
+
 FALTA POR HACER:  
   
-#Animar los botones del video y menu superior para que se vea un efecto de pulsado  
-#Corregir algunas medidas y dimensiones en general
+#Revisar funcionalidad completa del sitio  
+#Modificar codigos de JS para que cumplan con buenas practicas
