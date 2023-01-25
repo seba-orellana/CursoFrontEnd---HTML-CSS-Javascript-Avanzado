@@ -138,3 +138,8 @@ h1 {
 .boton_pulsable:hover {
     cursor: pointer;
 }
+
+.boton_pulsable:active {
+    box-shadow: none;
+    translate: 2px 3px;
+}

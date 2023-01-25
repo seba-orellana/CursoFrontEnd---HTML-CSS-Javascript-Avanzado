@@ -1,8 +1,12 @@
+//Boton reiniciar
+
 let boton_reiniciar = document.getElementById("boton_reiniciar");
 
 boton_reiniciar.addEventListener("click", ()=> {
     window.location.reload()
 });
+
+//Cambio de color a las cartas vacias del rompecabezas
 
 let cartas_rompec = document.getElementsByClassName("arrastre_imagen");
 
@@ -15,6 +19,8 @@ for (let i = 0; i<3; i++) {
         cartas_rompec[i].style.background = "grey";
     })
 }
+
+//Juego rompecabezas
 
 let destino1 = document.getElementById("destino1");
 let destino2 = document.getElementById("destino2");
