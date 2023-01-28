@@ -22,4 +22,4 @@
 28/1/23
 
 *Corregido levemente el codigo de JS y de HTML de algunas hojas  
-*Eliminado el archivo "index.js" ya que no se utilizaba
+*Eliminado el archivo "script-index.js" ya que no se utilizaba
