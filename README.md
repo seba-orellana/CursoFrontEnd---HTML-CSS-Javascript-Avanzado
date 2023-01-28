@@ -19,7 +19,7 @@
 
 *Agregado el efecto de pulsado a los botones (y al boton "Reiniciar" en la pagina del juego, pese a que la pagina original no lo tiene)
 
-FALTA POR HACER:  
-  
-#Revisar funcionalidad completa del sitio  
-#Modificar codigos de JS para que cumplan con buenas practicas
+28/1/23
+
+*Corregido levemente el codigo de JS y de HTML de algunas hojas  
+*Eliminado el archivo "index.js" ya que no se utilizaba
